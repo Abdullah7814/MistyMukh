@@ -1,0 +1,180 @@
+.hind-siliguri-light {
+  font-family: "Hind Siliguri", sans-serif;
+  font-style: normal;
+}
+
+
+*{
+    margin: 0px;
+}
+
+
+
+
+
+#itachi{
+     background-image: url(../gallery/image.png) , url(../pic/image.png);
+    background-repeat: no-repeat;
+    background-position: left center,right bottom; 
+} 
+
+.colour{
+    color: #FD6E0A;
+}
+
+
+
+
+.color{
+   background-color: #FD6E0A
+}
+
+
+
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: rgba(231, 228, 228, 0.301);
+    
+}
+
+
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   border-bottom: 2px solid #f0c19a67;
+   padding: 23px;
+width: 1100px;
+margin: 0 auto;
+   
+} 
+
+
+.top div h1{
+
+    display: flex;
+    gap: 5px;
+   
+}
+
+
+
+.top div h1 img{
+    width: 40px;
+}
+
+
+
+
+ul li{
+    list-style: none;
+   
+}
+
+
+
+li a{
+     text-decoration: none;
+     color: #181818;
+     font-size: 16px;
+     /* border-bottom: ; */
+}
+
+
+
+ul{
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    font-weight: bold;
+  
+}
+
+
+.button{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+
+.minato{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+
+.khati{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 83px;
+    padding-bottom: 11px;
+}
+
+
+
+.bogura{
+    font-size: 51px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+
+
+.matirhari{
+
+    font-size: 18px;
+    color: #666666;
+    line-height: 20px;
+  
+}
+
+
+
+.btn2{
+
+background-color: #FD6E0A;
+color: white;
+padding: 9px;
+border: none;
+font-size: 16px;
+border-radius: 6px;
+}
+
+
+
+.btn3{
+border: 1px solid #FD6E0A;
+color: #FD6E0A;
+ padding: 9px;
+border-radius: 6px;
+font-size: 16px;
+}
+
+
+.book{
+    display: flex;
+    gap: 16px;
+    padding-top: 15px;
+}
+
+
+.image{
+    width: 448px;
+    padding-top: 60px;
+}
+
+
+.obito{
+    display: flex;
+justify-content:space-between ;
+gap: 40px;
+}
