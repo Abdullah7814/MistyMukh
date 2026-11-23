@@ -2,10 +2,11 @@ body {
     font-family: "Hind Siliguri", sans-serif;
     font-style: normal;
     min-height: 100vh;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: rgba(231, 228, 228, 0.301);
 }
- body{
-background-color: #E5E7EB;
- }
+
 
 * {
     margin: 0px;
@@ -37,12 +38,7 @@ background-color: #E5E7EB;
 
 
 
-body {
-    max-width: 1280px;
-    margin: 0 auto;
-    background-color: rgba(231, 228, 228, 0.301);
 
-}
 
 
 
