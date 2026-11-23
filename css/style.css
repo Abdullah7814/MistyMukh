@@ -222,7 +222,6 @@ ul {
     background-color: white;
     padding: 50px 60px;
     border-radius: 13px;
-min-height: 100vh;
 }
 
 
@@ -363,7 +362,7 @@ min-height: 100vh;
 .card-image{
     width: 211px;
     height: 151px;
-    padding-left: 20px;
+    padding-left: 25px;
     padding-top: 20px;
  
 }
