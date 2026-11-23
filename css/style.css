@@ -337,6 +337,14 @@ ul {
 
 
 
+
+
+#our-speciality{
+    width: 1100px;
+}
+
+
+
 .speciality{
     margin-top: 119px;
     text-align: center;
@@ -350,10 +358,23 @@ ul {
 }
 
 
+
+.card-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 40px;
+    padding-right: 20px;
+ 
+}
+
+
+
 .card{
     width: 255px;
     height: 446px;
     background-color: white;
+   
 }
 
 
@@ -391,4 +412,26 @@ ul {
     line-height: 23px;
     padding-top: 10px;
 
+}
+
+
+
+.card-button{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.card-button p{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+
+
+.card-button button{
+    padding: 12px 45px;
+    border: 1px solid #FD6E0A;
+    font-weight: bold;
 }
