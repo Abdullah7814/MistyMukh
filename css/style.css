@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
     max-width: 1280px;
     margin: 0 auto;
-    background-color: rgba(231, 228, 228, 0.301);
+    background-color:#FFF8F5;
 }
 
 
@@ -198,7 +198,6 @@ ul {
 
 #natuto {
     width: 1100px;
-    min-height: 100vh;
 }
 
 .naruto-top {
@@ -206,7 +205,6 @@ ul {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 40px;
-    /* min-height: 100vh; */
 
 }
 
@@ -326,4 +324,72 @@ min-height: 100vh;
 .cow-everyday {
     font-size: 14px;
     color: #666666;
+}
+
+
+
+
+
+
+
+
+/* আমাদের স্পেশালিটি */
+
+
+
+
+.speciality{
+    margin-top: 119px;
+    text-align: center;
+}
+
+
+
+.speciality p{
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+
+.card{
+    width: 255px;
+    height: 446px;
+    background-color: white;
+}
+
+
+
+
+.card-image{
+    width: 211px;
+    height: 151px;
+    padding-left: 20px;
+    padding-top: 20px;
+ 
+}
+
+
+
+
+.card-write{
+    padding-top: 7px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-write small{
+    font-size:20px ;
+    font-weight: bold;
+
+}
+
+
+
+.card-write p{
+
+    font-size: 14px;
+    line-height: 23px;
+    padding-top: 10px;
+
 }
