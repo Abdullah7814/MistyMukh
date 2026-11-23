@@ -20,7 +20,6 @@ body {
     background-image: url(../gallery/image.png), url(../pic/image.png);
     background-repeat: no-repeat;
     background-position: left center, right bottom;
-min-height: 100vh;
 }
 
 
@@ -71,14 +70,14 @@ min-height: 100vh;
 
 
 
-ul li {
+.header-ul li {
     list-style: none;
 
 }
 
 
 
-li a {
+.header-ul li a {
     text-decoration: none;
     color: #181818;
     font-size: 16px;
@@ -87,7 +86,7 @@ li a {
 
 
 
-ul {
+.header-ul {
     display: flex;
     gap: 28px;
     align-items: center;
@@ -194,6 +193,8 @@ ul {
 
 
 /* section start */
+
+
 
 
 #natuto {
@@ -362,8 +363,8 @@ ul {
 .card-parent{
     display: flex;
     justify-content: space-between;
-    gap: 30px;
-    padding-top: 40px;
+    padding-top: 40px; 
+    width: 1280px;
  
 }
 
@@ -434,3 +435,151 @@ ul {
     border: 1px solid #FD6E0A;
     font-weight: bold;
 }
+
+
+
+
+
+
+/* সিগনেচার কম্বো প্লাটার */
+
+
+
+
+#signature-combo-platar{
+    max-width: 1100px;
+}
+
+
+
+.signature-top{
+    text-align: center;
+    margin-top: 119px;
+    padding: 0px 20px;
+    
+}
+
+
+.signature-top small{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+
+.signature-top h1{
+    padding-top: 7px;
+}
+
+
+
+
+.signature-image{
+    width: 347px;
+    height: 558px;
+    border: 1px solid #ffdabf;
+    border-radius: 12px;
+    margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 130px;
+}
+
+
+
+
+
+.best-seller{
+    text-align: center;
+    font-weight: bold;
+    width:70px ;
+    height:25px ;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    margin-left: 240px;
+    margin-top: 10px;
+    padding: 2px 12px;
+    line-height: 20px;
+    padding-top: 10px;
+   
+}
+
+
+
+
+#best-seller-image{
+   height: 180px;
+   width: 344px;
+   text-align: center;
+   border-bottom: 1px solid #ffdabf;
+}
+
+
+.signature-image-intro-parent{
+    background-color: white;
+    height: 328px;
+    border-bottom: 1px solid #ffdabf;
+    border-radius: 12px;
+}
+
+
+
+.signature-image-intro{
+    width: 296px;
+    height: 218px;
+    padding-top: 23px;
+    padding: 23px 24px 0px 24px;
+
+}
+
+
+.signature-image-intro p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+
+.signature-image-intro small{
+    line-height: 24px;
+    color: #666666;
+}
+
+
+
+ .signature-image-intro li{
+    list-style: none;
+    margin-top: 6px;
+    padding-top: ;
+}
+
+
+
+.signature-image-intro-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    justify-items: center;
+}
+
+
+
+.signature-image-intro-footer p{
+
+    font-size: 22px;
+    padding-left: 25px;
+}
+
+
+
+.signature-image-intro-footer button{
+
+    padding: 12px 15px;
+    margin-right: 15px;
+    color: white;
+    border: none;
+}
+
+
+
