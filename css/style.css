@@ -108,10 +108,8 @@ body {
 .minato {
     width: 1100px;
     margin: 0 auto;
-    min-height: calc(100vh-90px);
     display: flex;
-    justify-items: center;
-    min-height: 100vh - 90px;
+    min-height: calc(100vh - 90px);
     align-items: center;
 
 }
@@ -190,7 +188,6 @@ body {
     justify-content: space-between;
     gap: 40px;
     width: 1100px;
-    min-height: 100vh - 90px;
 
 }
 
