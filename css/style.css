@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
     max-width: 1280px;
     margin: 0 auto;
-    background-color:#FFF8F5;
+    background-color: #FFF8F5;
 }
 
 
@@ -108,9 +108,10 @@ body {
 .minato {
     width: 1100px;
     margin: 0 auto;
-   min-height: calc(100vh-90px);
-   display: flex;
-   justify-items: center;
+    min-height: calc(100vh-90px);
+    display: flex;
+    justify-items: center;
+    min-height: 100vh - 90px;
 }
 
 
@@ -187,6 +188,7 @@ body {
     justify-content: space-between;
     gap: 40px;
     width: 1100px;
+    min-height: 100vh - 90px;
 }
 
 
@@ -294,6 +296,7 @@ body {
     display: flex;
 
 }
+
 .fire-image {
     background-color: #f8d2bd;
     color: #FD6E0A;
@@ -304,12 +307,13 @@ body {
     display: flex;
 
 }
+
 .leaf-image {
     background-color: #f8d2bd;
     color: #FD6E0A;
     border-radius: 50%;
     padding-top: 25px;
-    padding-left:5px;
+    padding-left: 5px;
     width: 40px;
     display: flex;
 
@@ -340,73 +344,75 @@ body {
 
 
 
-#our-speciality{
+#our-speciality {
     width: 1100px;
 }
 
 
 
-.speciality{
+.speciality {
     margin-top: 119px;
     text-align: center;
 }
 
 
 
-.speciality p{
+.speciality p {
     font-weight: bold;
     padding-bottom: 7px;
 }
 
 
 
-.card-parent{
+.card-parent {
     display: flex;
     justify-content: space-between;
-    padding-top: 40px; 
+    padding-top: 40px;
     width: 1280px;
- 
+
 }
 
 
 
-.card{
+.card {
     width: 255px;
     height: 446px;
     background-color: white;
-   
+    border: 1px solid #fcdfcb;
+    border-radius: 10px;
+
 }
 
 
 
 
-.card-image{
+.card-image {
     width: 211px;
     height: 151px;
     padding-left: 25px;
     padding-top: 20px;
- 
+
 }
 
 
 
 
-.card-write{
+.card-write {
     padding-top: 7px;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.card-write small{
-    font-size:20px ;
+.card-write small {
+    font-size: 20px;
     font-weight: bold;
 
 }
 
 
 
-.card-write p{
+.card-write p {
 
     font-size: 14px;
     line-height: 23px;
@@ -416,24 +422,26 @@ body {
 
 
 
-.card-button{
+.card-button {
     text-align: center;
     padding-top: 20px;
 }
 
 
-.card-button p{
+.card-button p {
     font-size: 18px;
     font-weight: bold;
     padding-bottom: 16px;
+    font-weight: bold;
 }
 
 
 
-.card-button button{
+.card-button button {
     padding: 12px 45px;
     border: 1px solid #FD6E0A;
     font-weight: bold;
+    border-radius: 6px;
 }
 
 
@@ -446,54 +454,57 @@ body {
 
 
 
-#signature-combo-platar{
+#signature-combo-platar {
     max-width: 1100px;
 }
 
 
 
-.signature-top{
+.signature-top {
     text-align: center;
     margin-top: 119px;
     padding: 0px 20px;
-    
+
 }
 
 
-.signature-top small{
+.signature-top small {
     font-weight: bold;
     font-size: 17px;
 }
 
 
 
-.signature-top h1{
+.signature-top h1 {
     padding-top: 7px;
 }
 
 
 
 
-.signature-image{
+.signature-image {
     width: 347px;
     height: 558px;
-    border: 1px solid #ffdabf;
-    border-radius: 12px;
     margin-top: 40px;
-  display: flex;
-  justify-content: space-between;
-  gap: 130px;
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
 }
 
 
 
+.best-seller-parent{
+    border: 1px solid #fcdfcb;
+      border-radius: 12px;
+}
 
 
-.best-seller{
+
+.best-seller {
     text-align: center;
     font-weight: bold;
-    width:70px ;
-    height:25px ;
+    width: 70px;
+    height: 25px;
     border-radius: 20px;
     color: white;
     font-size: 15px;
@@ -502,21 +513,21 @@ body {
     padding: 2px 12px;
     line-height: 20px;
     padding-top: 10px;
-   
+
 }
 
 
 
 
-#best-seller-image{
-   height: 180px;
-   width: 344px;
-   text-align: center;
-   border-bottom: 1px solid #ffdabf;
+#best-seller-image {
+    height: 180px;
+    width: 344px;
+    text-align: center;
+    border-bottom: 1px solid #fcdfcb;
 }
 
 
-.signature-image-intro-parent{
+.signature-image-intro-parent {
     background-color: white;
     height: 328px;
     border-bottom: 1px solid #ffdabf;
@@ -525,7 +536,7 @@ body {
 
 
 
-.signature-image-intro{
+.signature-image-intro {
     width: 296px;
     height: 218px;
     padding-top: 23px;
@@ -534,29 +545,29 @@ body {
 }
 
 
-.signature-image-intro p{
+.signature-image-intro p {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 6px;
 }
 
 
-.signature-image-intro small{
+.signature-image-intro small {
     line-height: 24px;
     color: #666666;
 }
 
 
 
- .signature-image-intro li{
+.signature-image-intro li {
     list-style: none;
     margin-top: 6px;
-    padding-top: ;
+    /* padding-top: ; */
 }
 
 
 
-.signature-image-intro-footer{
+.signature-image-intro-footer {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -565,7 +576,7 @@ body {
 
 
 
-.signature-image-intro-footer p{
+.signature-image-intro-footer p {
 
     font-size: 22px;
     padding-left: 25px;
@@ -573,13 +584,10 @@ body {
 
 
 
-.signature-image-intro-footer button{
+.signature-image-intro-footer button {
 
     padding: 12px 15px;
     margin-right: 15px;
     color: white;
     border: none;
 }
-
-
-
