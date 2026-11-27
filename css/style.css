@@ -494,6 +494,8 @@ body {
 
 
 
+
+
 .best-seller-parent {
     border: 1px solid #fcdfcb;
     border-radius: 12px;
@@ -562,7 +564,6 @@ body {
 .signature-image-intro-parent {
     background-color: white;
     height: 328px;
-    border-bottom: 1px solid #ffdabf;
     border-radius: 12px;
 }
 
@@ -594,7 +595,7 @@ body {
 .signature-image-intro li {
     list-style: none;
     margin-top: 6px;
-    /* padding-top: ; */
+
 }
 
 
